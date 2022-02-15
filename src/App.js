@@ -35,24 +35,6 @@ const H3 = styled.h2`
   letter-spacing: 0.03em;
 `;
 
-const Code = styled.code`
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 0.25em;
-  display: inline;
-  font-family: 'iA Writer Mono';
-  padding: 0.1em 0.4em;
-`;
-
-const HrefUnderline = styled.a`
-  border-bottom: 1px solid;
-  border-bottom-color: inherit;
-  padding-bottom: 1px;
-
-  &:hover {
-    border-bottom-color: transparent;
-  }
-`;
-
 const Divider = styled.div({
   width: '100%',
   height: 1,
