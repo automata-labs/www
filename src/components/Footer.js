@@ -38,6 +38,7 @@ export default function FooterComponent() {
       <FooterInner>
         <HrefLink href="https://automata.fi">Automata Labs Inc.</HrefLink>
         <FooterInnerRight>
+          <HrefLink href="https://blog.automata.fi" style={{ marginRight: 20 }}>Blog</HrefLink>
           <HrefLink href="https://discord.gg/rXUgFXs4Pz" style={{ marginRight: 20 }}>Discord</HrefLink>
           <HrefLink href="https://twitter.com/AutomataFinance" style={{ marginRight: 20 }}>Twitter</HrefLink>
           <HrefLink href="https://github.com/automata-labs/">GitHub</HrefLink>
